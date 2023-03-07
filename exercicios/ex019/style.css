@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient( to right, #F2B5A7,#F29188 );
+    color: #260101 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    color: #A65B4B;
+}
+
+p {
+    text-align: justify;
+    text-align: left;
+}
