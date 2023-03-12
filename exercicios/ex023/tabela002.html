@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 550px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 11px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(100, 100, 88, 0.315);
+        }
+        thead, tfoot{
+            background-color: rgb(39, 29, 29);
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+        }
+        .num{
+            text-align: right;
+        }
+        .clc{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidades federativas do Brasil</h1>
+
+    <!--
+        ANATOMIA DE TABELAS GRANDES
+        TABLE
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+    -->
+
+    <table>
+        <thead>
+            <th>Posição</th>
+            <th>Estado</th>
+            <th>população</th>
+            <th>País comparável</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="clc">1</td>
+                <td>São Paulo</td>
+                <td class="num">46 024 937</td>
+                <td> Espanha &#40 46 754 778 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 732 660</td>
+                <td>  Burquina Fasso &#40 20 903 273 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">3</td>
+                <td>Rio de janeiro</td>
+                <td class="num">16 615 526</td>
+                <td> Camboja &#40 16 718 965 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">4</td>
+                <td> Bahia</td>
+                <td class="num">14 659 023	</td>
+                <td>  Zimbabwe &#40 14 862 924 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">5 </td>
+                <td>Paraná</td>
+                <td class="num">11 835 379</td>
+                <td> Tunísia &#40 11 818 619 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">6</td>
+                <td>Rio grande do sul</td>
+                <td class="num">11 088 065</td>
+                <td> Cuba &#40 11 326 616 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">7</td>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+                <td> Áustria &#40 9 006 398 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">8</td>
+                <td>Ceará</td>
+                <td class="num">8 936 431</td>
+                <td>  Papua-Nova Guiné  &#40 8 947 024 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">9</td>
+                <td>Pará</td>
+                <td class="num">8 442 962</td>
+                <td> Suíça &#40 8 654 622 &#41</td>
+            </tr>
+            <tr>
+                <td class="clc">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 762 154</td>
+                <td> Paraguai &#40 7 132 538 &#41</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th>Total de Habitantes</th>
+            <td> ----------- </td>
+            <td class="num"><strong>146 211 819</strong></td>
+            <td> Rússia&#40 145 934 462&#41</td>
+        </tfoot>
+    </table>
+</body>
+</html>
