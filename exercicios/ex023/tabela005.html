@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 450px;
+            border-collapse: collapse;
+            background-color: rgba(30, 143, 255, 0.452);
+        }
+
+        caption{
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        col.cnome{
+            background-color: rgb(255, 234, 165);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas </h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption> Cadastro </caption>
+        <tr>
+            <th scope="col"> Nome </th>
+            <th scope="col"> Sexo </th>
+            <th scope="col"> Idade </th>
+            <th scope="col"> Profissão </th>
+        </tr>
+
+        <tr>
+            <td>Ana Cláudia</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Designer</td>
+        </tr>
+
+        <tr>
+            <td>Alejandro</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Tânia</td>
+            <td> F </td>
+            <td> 49 </td>
+            <td> Atendente de Caixa </td>
+        </tr>
+
+        <tr>
+            <td>Cleverson</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Chapista</td>
+        </tr>
+
+        <tr>
+            <td>Meire</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Faxineira</td>
+        </tr>
+
+        <tr>
+            <td>Lucas</td>
+            <td>M</td>
+            <td>15</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Luna</td>
+            <td>F</td>
+            <td>14</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>
