@@ -34,15 +34,15 @@ span#burguer:hover{
     color: black;
     cursor: pointer;
 }
-menu{
+nav{
     display: none;
 }
 
-menu > ul{
+nav > ul{
     list-style-type:none ;
 }
 
-menu >ul >li > a {
+nav >ul >li > a {
     display: block;
     padding: 10px;
     
@@ -54,7 +54,7 @@ menu >ul >li > a {
     border-top: 1px solid grey;
 }
 
-menu> ul> li> a:hover{
+nav> ul> li> a:hover{
 
     background-color: gray;
 }
